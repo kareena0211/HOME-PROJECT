@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*  .......................  NAVBAR ............................... */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 0px;
+
+    
+}
+
+.search-bar{
+    padding: 18px;
+    margin-left: 35px;
+    margin-bottom: 300px;
+    
+}
+
+.nav-list-items{
+    display: flex;
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    color: #596172;
+    cursor: pointer;
+    
+}
+
+
+
+.flex{
+    display: flex;
+    gap: 20px;
+}
+
+#id-for-girl{
+    cursor: pointer;
+}
+
+.navbar-brand{
+    display: flex;
+    height: 50px;
+    padding: 4px;
+}
+
+/* ...........................       LEFT SIDE  PARTITION     ........................ */
+
+.main{
+    height: 100vh;
+    display: flex;
+    margin-top: 56px;
+}
+
+
+.left-side{
+    flex-basis: 50%;
+    margin-bottom: 115px;
+
+    
+}
+
+.right-side{
+    flex-basis: 50%;
+    margin-bottom: 115px;
+}
+
+.Home{
+    height: 451.297px;
+    width: 576.5px;
+    margin-top: 20px;
+    margin-left: 5px;
+    
+}
+
+.house{
+    border: 2px solid white;
+    font-size: 64px;
+    height: 96px;
+    width: 578.5px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph{
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 38.4px;
+    font-weight: 700px;
+    margin-left: 60px;
+}
+
+.search{
+    border: 1px solid  #D9DDE7;
+    height: 45px;
+    margin-left: 60px;
+    width: 400.938px;
+    padding: 1px;
+    margin-top: 20px;
+    border-radius: 5px;
+}  
+
+.four-buttons{
+    margin-left: 60px;
+    margin-top: 30px;
+    height: 50px;
+    
+}
+
+
+.for-button{
+    height: 50px;
+    padding: 4px;
+    width: 100px;
+    border-radius: 5px;
+    background-color:  #D9DDE7;
+    font-size: 15px;
+    border: none;
+
+}
+
+#different{
+    background-color: #25DF8F;
+    width: 20%;
+    color: white;
+}
+
+.another{
+    height: 783.375px
+    
+}
+
+.cantainer-holder{
+    width: 100%;
+    margin-top: -100px;
+    background-color:  #F6F6F7;
+    margin-top: -120PX;
+
+}
+
+.main-another{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.another-head{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apartment{
+    font-size: 1.7rem;
+    padding: 5px;
+    width: 30%;
+}
+
+.another-head p{
+    font-size: 1.7rem;
+    padding: 5px;
+    color:  #949FB7;
+}
+span{
+    color:  #949FB7;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 700px;
+}
+
+.div-item{
+    height: 203.312px;
+    width: 279.25px;
+}
+
+.div-item:hover{
+    box-shadow: #949FB7;
+    transform: scale(1.04);
+}
+
+.img-container{
+    width: 273px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.written{
+    display: flex;
+    justify-content: space-between;
+}
+
+.one{
+    color:  #949FB7;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.two{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color:  #949FB7;
+}
+
+.description{
+    font-family: Roboto, sans-serif;
+    font-size: 20.8px;
+    margin-top: 13px;
+}
